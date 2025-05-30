@@ -1,3 +1,11 @@
+Základní informace k repozitáři
+Tento repozitář byl vypracován pro zkoušku z předmětu PRJD. Repozitář obsahuje analýzu přirozeného jazyka pomocí programovacího jazyka Python v prostředí Jupyter notebook. Analýza čerpá data z repozitáře GitHub od uživatele Armita84. Výstup analýzy nabízí základní seznámení s datasetem pomocí základní statistiky jako jsou nejpočetnější slova apod. Hlavním jádrem analýzy je následně analýza sentimentu, která ukazuje, jestli se uživatelé vjadřují v techto komentářích spíše nagativně či pozitivně o ChatuGPT. Cílem analýzy je tak odhalení tohoto sentimentu. 
+
+
+
+Data
+Jedná se o sadu 50 tisíc komentářů týkající se ChatuGPT z platformy Reddit. Data jsou dělena do sloupců: comment_id, comment_parent_id, comment_body a subreddit
+
 Metody
 NLTK - Natural Language Toolkit
 NLTK je přední open source knihovna pro zpracování přirozeného jazyka v Pythonu. Nabízí jednoduché rozhraní k více než 50 jazykovým korpusům a zdrojům (např. WordNet) a obsahuje nástroje pro klasifikaci, tokenizaci, stemming, tagování, syntaktickou analýzu a sémantické zpracování textu. Je vhodná pro lingvisty, studenty, vývojáře i výzkumníky a funguje na Windows, Mac i Linuxu. Součástí je i kniha Natural Language Processing with Python, která prakticky seznamuje s programováním v oblasti jazykového zpracování. NLTK je ceněna jako výborný nástroj pro výuku i vývoj v oblasti výpočetní lingvistiky.
@@ -43,7 +51,7 @@ even       4331
 
 
 Analýza sentimentu
-Na základě údajů z analýzy sentimentu můžeme pozorovat, že jsou komentáře na Redditu z daného datasetu převážně neutrální až pozitivní. Průměrný sentiment komentářů činí  0.095, což tedy ukazuje na mírnou pozitivity a medián sentimentu komentářů je 0.029.
+Na základě údajů z analýzy sentimentu můžeme pozorovat, že jsou komentáře na Redditu z daného datasetu převážně neutrální až pozitivní. Průměrný sentiment komentářů činí  0.095, což tedy ukazuje na mírnou pozitivity a medián sentimentu komentářů je 0.029. Nejpozitivnější průměrný sentiment se ukazuje u subredditu "r/Futrology"
 
 
 
